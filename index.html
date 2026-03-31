@@ -43,7 +43,11 @@
       </div>
     </header>
     <main class="main">
-      <section class="hero" style="background-image: url(images/hero-bg.webp);">
+      <section class="hero ibg">
+        <picture>
+          <source srcset="images/hero-bg-mb.webp" media="(max-width: 768px)">
+          <img src="images/hero-bg.webp" alt="фоновое изображение">
+        </picture>
         <div class="container">
           <div class="hero__content">
             <p class="hero__subtitle">The Essence of Masculinity</p>
@@ -391,7 +395,7 @@
               если вы не почувствуете разницы. Никаких лишних вопросов — только ваше удовлетворение.
             </p>
             <div class="guarantee__icon-bottom">
-                <img src="images/guarantee-01.webp" alt="ok">
+              <img src="images/guarantee-01.webp" alt="ok">
             </div>
           </div>
         </div>
